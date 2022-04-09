@@ -14,11 +14,11 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapi.xyz': '335287f07519',
+	'https://zenzapi.xyz': '335287f0172',
 }
 
 // Other
-global.owner = ['628888425016','6289670427615']
+global.owner = ['6285730357100']
 global.premium = ['6288292024190']
 global.packname = 'Ika'
 global.author = 'WhatsApp Bot'
@@ -40,7 +40,7 @@ global.limitawal = {
     premium: "Infinity",
     free: 100
 }
-global.thumb = fs.readFileSync('./media/kahfz.jpg')
+global.thumb = fs.readFileSync('./lib/hisoka.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
